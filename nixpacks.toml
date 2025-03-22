@@ -1,5 +1,0 @@
-[build]
-language="java"
-buildCommand="./mvnw package-DskipTests"
-[start]
-Command="java -jar salon-api-gateway/target/*.jar"
