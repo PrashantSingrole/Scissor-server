@@ -1,5 +1,4 @@
 [build]
-builder = "paketobuildpacks/builder:base"
-build_command = "mvn clean package-DskipTests"
-[start]
-run="java -jar target/salon-api-gateway.jar"
+language="java"
+buildCommand="./mvnw package"
+startCommand="java -jar target/*.jar"
