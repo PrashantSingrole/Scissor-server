@@ -2,4 +2,4 @@
 language="java"
 buildCommand="./mvnw package-DskipTests"
 [start]
-Command="java -jar salon-api-gatewaytarget/*.jar"
+Command="java -jar salon-api-gateway/target/*.jar"
